@@ -1,0 +1,77 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.container-1 {
+  background-image: url("../img/pexels-photo-2387793.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  padding-top: 200px;
+}
+.container-1 .box-01 {
+  margin: auto;
+  width: 80%;
+  color: aliceblue;
+}
+.container-1 .box-01 .text-01 {
+  color: rgb(214, 214, 214);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container-1 .box-01 .text-02 {
+  padding-left: 10px;
+  color: rgb(242, 242, 242);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-weight: 600;
+}
+.container-1 .box-01 .text-03 {
+  color: rgb(232, 232, 232);
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 30px;
+  font-size: x-large;
+}
+.container-1 .box-02 {
+  margin-top: 20vh;
+  color: aliceblue;
+  text-align: center;
+}
+.container-1 .box-02 .btn-01 {
+  font-size: 20px;
+  font-weight: 400;
+  border: solid 1px white;
+  background: rgba(59, 59, 59, 0.329);
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container-1 .box-02 .btn-01:hover {
+  transform: scale(2);
+  font-weight: 400;
+  border: solid 1px rgba(247, 247, 247, 0.688);
+  background: rgba(194, 194, 194, 0.228);
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: rgb(45, 45, 45) 0.1em 0.1em 0.1em;
+}
+.container-1 .box-03 {
+  overflow: hidden;
+  margin-right: 40px;
+  color: aliceblue;
+  display: flex;
+  position: fixed;
+  top: 40px;
+  right: 0px;
+}
+.container-1 .box-03 .text-01 {
+  width: 40px;
+  margin-right: 20px;
+}
+.container-1 .box-03 .text-02 {
+  width: 40px;
+}/*# sourceMappingURL=style.css.map */
