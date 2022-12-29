@@ -82,3 +82,37 @@ function returnigMedia() {
     }, 1000);
     
 }
+
+function skillsCard(Nunb){
+    const text = document.getElementById('inerText')
+    const text1 = document.getElementById('innerText')
+    if(Number(Nunb)==1){
+        text.innerText = 'GitHub' ;
+        text1.innerText = 'I have a basic knowledge with github, knowing the basic push, pull commit commands. '
+    }
+    if(Number(Nunb)==2){
+        text.innerText = 'BootStrap' ;
+        text1.innerText = 'He has a Medium knowledge in BootStrap, knowing how to manipulate styles and responsiveness.'
+    }
+    if(Number(Nunb)==3){
+        text.innerText = 'CSS3' ;
+        text1.innerText = 'Advanced knowledge in Css3, despite using BootStrap and Scss manipulating css, I m getting deeper and deeper into this tool.'
+    }
+    if(Number(Nunb)==4){
+        text.innerText = 'JavaScript' ;
+        text1.innerText = 'Medium knowledge in JavaScript, getting deeper and deeper with the Obj orientation, knowing how to manipulate the DOM, and programming logic.'
+    }
+    if(Number(Nunb)==5){
+        text.innerText = 'My/Sql' ;
+        text1.innerText = 'Basic knowledge in my/sql, know how to create a database, manipulate data and CRUD principles.'
+    }
+    if(Number(Nunb)==6){
+        text.innerText = 'Scss' ;
+        text1.innerText = 'Medium knowledge in scss, particle I really like this tool I m using it practically in all my projects.'
+    }
+    if(Number(Nunb)==7){
+        text.innerText = 'HTML5' ;
+        text1.innerText = 'Advanced knowledge, knowing practically all structures and tools of HTML.'
+    }
+    
+}
