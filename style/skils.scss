@@ -7,9 +7,13 @@
     #container-01 {
         height: 100vh;
         width: 100%;
-        background-image: url("../img/pexels-photo-6044217.jpeg");
-        background-position: center;
-        background-size: cover;
+        background: hsla(0, 4%, 11%, 1);
+
+        background: radial-gradient(circle, hsla(0, 4%, 11%, 1) 0%, hsla(0, 0%, 2%, 1) 100%);
+    
+        background: -moz-radial-gradient(circle, hsla(0, 4%, 11%, 1) 0%, hsla(0, 0%, 2%, 1) 100%);
+    
+        background: -webkit-radial-gradient(circle, hsla(0, 4%, 11%, 1) 0%, hsla(0, 0%, 2%, 1) 100%);
 
         .cardH:hover {
             z-index: 4;
