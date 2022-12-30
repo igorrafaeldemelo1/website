@@ -1,0 +1,113 @@
+#container-1 {
+  padding-top: 150px;
+  background: hsl(0deg, 4%, 11%);
+  background: radial-gradient(circle, hsl(0deg, 4%, 11%) 0%, hsl(0deg, 0%, 2%) 100%);
+  background: -webkit-radial-gradient(circle, hsl(0deg, 4%, 11%) 0%, hsl(0deg, 0%, 2%) 100%);
+}
+#container-1 .carrosel {
+  width: 80%;
+  margin: auto;
+}
+#container-1 .carrosel .details {
+  height: 100%;
+  width: 100%;
+}
+#container-1 .carrosel .details:hover {
+  background: rgba(166, 166, 166, 0.14);
+}
+#container-1 .carrosel .item {
+  height: 200px;
+}
+#container-1 .carrosel .icons {
+  height: 60px;
+  width: 60px;
+  margin-top: 30px;
+}
+#container-1 .carrosel .flex {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin: auto;
+}
+#container-1 .carrosel .img-1 {
+  background-image: url("../img/scssflix.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+#container-1 .carrosel .img-2 {
+  background-image: url("../img/tesla.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+#container-1 .carrosel .img-3 {
+  background-image: url("../img/calc.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+#container-1 .carrosel .img-4 {
+  background-image: url("../img//Barber.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+#container-1 .carrosel .img-5 {
+  background-image: url("../img/imc.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+#container-1 .carrosel .img-6 {
+  background-image: url("../img/dog.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+#container-1 .carrosel .img-7 {
+  background-image: url("../img/funko-logo.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+#container-1 .carrosel .icon-scss {
+  background-image: url("../img/4375066_logo_sass_icon.png");
+  background-size: cover;
+  background-position: center;
+}
+#container-1 .carrosel .icon-css {
+  background-image: url("../img/css-3 (1).png");
+  background-size: cover;
+  background-position: center;
+}
+#container-1 .carrosel .icon-html {
+  background-image: url("../img/html-5.png");
+  background-size: cover;
+  background-position: center;
+}
+#container-1 .carrosel .icon-js {
+  background-image: url("../img/js (2).png");
+  background-size: cover;
+  background-position: center;
+}
+#container-1 .carrosel .icon-bootstrap {
+  background-image: url("../img/bootstrap (1).png");
+  background-size: cover;
+  background-position: center;
+}
+
+.shadown {
+  height: 50px;
+  width: 80%;
+  background: rgb(12, 12, 12);
+  border-radius: 100%;
+  position: fixed;
+  left: 10%;
+  top: 460px;
+  box-shadow: 10px 10px 50em rgb(23, 23, 23);
+}
+
+#container-3 {
+  top: 400px;
+}/*# sourceMappingURL=project.css.map */

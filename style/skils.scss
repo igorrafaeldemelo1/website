@@ -269,9 +269,14 @@
     #container-01 {
         height: 100vh;
         width: 100%;
-        background-image: url("../img/pexels-photo-6044217.jpeg");
-        background-position: center;
-        background-size: cover;
+        background: hsla(0, 4%, 11%, 1);
+
+        background: radial-gradient(circle, hsla(0, 4%, 11%, 1) 0%, hsla(0, 0%, 2%, 1) 100%);
+    
+        background: -moz-radial-gradient(circle, hsla(0, 4%, 11%, 1) 0%, hsla(0, 0%, 2%, 1) 100%);
+    
+        background: -webkit-radial-gradient(circle, hsla(0, 4%, 11%, 1) 0%, hsla(0, 0%, 2%, 1) 100%);
+
 
         .menu {
             position: fixed;
@@ -297,8 +302,8 @@
         }
         .media {
             position: fixed;
-            top: 250px;
-            left: 5px;
+            top: 550px;
+            left: 15px;
             .icon {
                 padding-top: 15px;
                 color: aliceblue;
@@ -319,7 +324,7 @@
             margin: auto;
         }
         .flex {
-            margin-top: 5px;
+            margin-top: 20px;
             display: flex;
             justify-content: space-between;
         }
