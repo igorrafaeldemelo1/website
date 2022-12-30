@@ -321,7 +321,7 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(400px);
+    transform: translateX(600px);
   }
 }
 @keyframes go-return {
@@ -329,7 +329,7 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(400px);
+    transform: translateX(600px);
   }
 }
 @-webkit-keyframes go-back-media {

@@ -4,16 +4,52 @@
   background: radial-gradient(circle, hsl(0deg, 4%, 11%) 0%, hsl(0deg, 0%, 2%) 100%);
   background: -webkit-radial-gradient(circle, hsl(0deg, 4%, 11%) 0%, hsl(0deg, 0%, 2%) 100%);
 }
+#container-1 a {
+  text-decoration: none;
+}
 #container-1 .carrosel {
   width: 80%;
   margin: auto;
 }
 #container-1 .carrosel .details {
   height: 100%;
-  width: 100%;
+  text-align: center;
+}
+#container-1 .carrosel .details .box-1 {
+  display: none;
+  width: auto;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+}
+#container-1 .carrosel .details .box-1 .icon-link {
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#container-1 .carrosel .details .box-1 .git {
+  background: hsl(290deg, 81%, 25%);
+  background: linear-gradient(90deg, hsl(290deg, 81%, 25%) 0%, hsl(286deg, 44%, 49%) 100%);
+  background: -webkit-linear-gradient(90deg, hsl(290deg, 81%, 25%) 0%, hsl(286deg, 44%, 49%) 100%);
+}
+#container-1 .carrosel .details .box-1 .home {
+  margin-top: 20px;
+  background: hsl(0deg, 0%, 0%);
+  background: linear-gradient(90deg, hsl(0deg, 0%, 0%) 0%, hsl(0deg, 0%, 32%) 100%);
+  background: -webkit-linear-gradient(90deg, hsl(0deg, 0%, 0%) 0%, rgb(45, 45, 45) 100%);
 }
 #container-1 .carrosel .details:hover {
-  background: rgba(166, 166, 166, 0.14);
+  background: rgba(67, 67, 67, 0.503);
+}
+#container-1 .carrosel .details:hover .box-1 {
+  display: block;
 }
 #container-1 .carrosel .item {
   height: 200px;
@@ -100,7 +136,7 @@
 .shadown {
   height: 50px;
   width: 80%;
-  background: rgb(12, 12, 12);
+  background: rgba(3, 3, 3, 0.169);
   border-radius: 100%;
   position: fixed;
   left: 10%;
