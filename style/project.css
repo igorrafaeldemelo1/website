@@ -1,149 +1,294 @@
-#container-1 {
-  padding-top: 150px;
-  background: hsl(0deg, 4%, 11%);
-  background: radial-gradient(circle, hsl(0deg, 4%, 11%) 0%, hsl(0deg, 0%, 2%) 100%);
-  background: -webkit-radial-gradient(circle, hsl(0deg, 4%, 11%) 0%, hsl(0deg, 0%, 2%) 100%);
+@media (min-width: 600px) {
+  #container-1 {
+    padding-top: 90px;
+    background: hsl(0deg, 4%, 11%);
+    background: radial-gradient(circle, hsl(0deg, 4%, 11%) 0%, hsl(0deg, 0%, 2%) 100%);
+    background: -webkit-radial-gradient(circle, hsl(0deg, 4%, 11%) 0%, hsl(0deg, 0%, 2%) 100%);
+  }
+  #container-1 a {
+    text-decoration: none;
+  }
+  #container-1 .title-project {
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 5;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding-bottom: 60px;
+    margin: auto;
+    color: aliceblue;
+  }
+  #container-1 .carrosel {
+    width: 80%;
+    margin: auto;
+  }
+  #container-1 .carrosel .details {
+    height: 100%;
+    text-align: center;
+  }
+  #container-1 .carrosel .details .box-1 {
+    display: none;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+  }
+  #container-1 .carrosel .details .box-1 .icon-link {
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    color: aliceblue;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  #container-1 .carrosel .details .box-1 .git {
+    letter-spacing: 2;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    color: black;
+    font-weight: 500;
+  }
+  #container-1 .carrosel .details .box-1 .home {
+    letter-spacing: 2;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: hsl(0deg, 0%, 0%);
+    background: linear-gradient(90deg, hsl(0deg, 0%, 0%) 0%, hsl(0deg, 0%, 32%) 100%);
+    background: -webkit-linear-gradient(90deg, hsl(0deg, 0%, 0%) 0%, rgb(45, 45, 45) 100%);
+  }
+  #container-1 .carrosel .details:hover {
+    background: rgba(67, 67, 67, 0.503);
+  }
+  #container-1 .carrosel .details:hover .box-1 {
+    display: block;
+  }
+  #container-1 .carrosel .item {
+    height: 200px;
+  }
+  #container-1 .carrosel .icons {
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+  }
+  #container-1 .carrosel .flex {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: auto;
+  }
+  #container-1 .carrosel .img-1 {
+    background-image: url("../img/scssflix.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  #container-1 .carrosel .img-2 {
+    background-image: url("../img/tesla.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  #container-1 .carrosel .img-3 {
+    background-image: url("../img/calc.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  #container-1 .carrosel .img-4 {
+    background-image: url("../img//Barber.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  #container-1 .carrosel .img-5 {
+    background-image: url("../img/imc.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  #container-1 .carrosel .img-6 {
+    background-image: url("../img/dog.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  #container-1 .carrosel .img-7 {
+    background-image: url("../img/funko-logo.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  #container-1 .carrosel .icon-scss {
+    background-image: url("../img/4375066_logo_sass_icon.png");
+    background-size: cover;
+    background-position: center;
+  }
+  #container-1 .carrosel .icon-css {
+    background-image: url("../img/css-3 (1).png");
+    background-size: cover;
+    background-position: center;
+  }
+  #container-1 .carrosel .icon-html {
+    background-image: url("../img/html-5.png");
+    background-size: cover;
+    background-position: center;
+  }
+  #container-1 .carrosel .icon-js {
+    background-image: url("../img/js (2).png");
+    background-size: cover;
+    background-position: center;
+  }
+  #container-1 .carrosel .icon-bootstrap {
+    background-image: url("../img/bootstrap (1).png");
+    background-size: cover;
+    background-position: center;
+  }
+  #container-3 {
+    top: 400px;
+  }
+  .project-mobile {
+    display: none;
+  }
 }
-#container-1 a {
-  text-decoration: none;
-}
-#container-1 .carrosel {
-  width: 80%;
-  margin: auto;
-}
-#container-1 .carrosel .details {
-  height: 100%;
-  text-align: center;
-}
-#container-1 .carrosel .details .box-1 {
-  display: none;
-  width: auto;
-  text-align: center;
-  margin: auto;
-  padding-top: 50px;
-}
-#container-1 .carrosel .details .box-1 .icon-link {
-  padding: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin: auto;
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 5px;
-  color: aliceblue;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-#container-1 .carrosel .details .box-1 .git {
-  background: hsl(290deg, 81%, 25%);
-  background: linear-gradient(90deg, hsl(290deg, 81%, 25%) 0%, hsl(286deg, 44%, 49%) 100%);
-  background: -webkit-linear-gradient(90deg, hsl(290deg, 81%, 25%) 0%, hsl(286deg, 44%, 49%) 100%);
-}
-#container-1 .carrosel .details .box-1 .home {
-  margin-top: 20px;
-  background: hsl(0deg, 0%, 0%);
-  background: linear-gradient(90deg, hsl(0deg, 0%, 0%) 0%, hsl(0deg, 0%, 32%) 100%);
-  background: -webkit-linear-gradient(90deg, hsl(0deg, 0%, 0%) 0%, rgb(45, 45, 45) 100%);
-}
-#container-1 .carrosel .details:hover {
-  background: rgba(67, 67, 67, 0.503);
-}
-#container-1 .carrosel .details:hover .box-1 {
-  display: block;
-}
-#container-1 .carrosel .item {
-  height: 200px;
-}
-#container-1 .carrosel .icons {
-  height: 60px;
-  width: 60px;
-  margin-top: 30px;
-}
-#container-1 .carrosel .flex {
-  display: flex;
-  width: 70%;
-  justify-content: space-around;
-  margin: auto;
-}
-#container-1 .carrosel .img-1 {
-  background-image: url("../img/scssflix.png");
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-}
-#container-1 .carrosel .img-2 {
-  background-image: url("../img/tesla.png");
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-}
-#container-1 .carrosel .img-3 {
-  background-image: url("../img/calc.png");
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-}
-#container-1 .carrosel .img-4 {
-  background-image: url("../img//Barber.png");
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-}
-#container-1 .carrosel .img-5 {
-  background-image: url("../img/imc.png");
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-}
-#container-1 .carrosel .img-6 {
-  background-image: url("../img/dog.png");
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-}
-#container-1 .carrosel .img-7 {
-  background-image: url("../img/funko-logo.png");
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-}
-#container-1 .carrosel .icon-scss {
-  background-image: url("../img/4375066_logo_sass_icon.png");
-  background-size: cover;
-  background-position: center;
-}
-#container-1 .carrosel .icon-css {
-  background-image: url("../img/css-3 (1).png");
-  background-size: cover;
-  background-position: center;
-}
-#container-1 .carrosel .icon-html {
-  background-image: url("../img/html-5.png");
-  background-size: cover;
-  background-position: center;
-}
-#container-1 .carrosel .icon-js {
-  background-image: url("../img/js (2).png");
-  background-size: cover;
-  background-position: center;
-}
-#container-1 .carrosel .icon-bootstrap {
-  background-image: url("../img/bootstrap (1).png");
-  background-size: cover;
-  background-position: center;
-}
-
-.shadown {
-  height: 50px;
-  width: 80%;
-  background: rgba(3, 3, 3, 0.169);
-  border-radius: 100%;
-  position: fixed;
-  left: 10%;
-  top: 460px;
-  box-shadow: 10px 10px 50em rgb(23, 23, 23);
-}
-
-#container-3 {
-  top: 400px;
+@media (max-width: 600px) {
+  #container-1 {
+    background: rgb(26, 26, 26);
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+  .carrosel {
+    display: none;
+  }
+  .close {
+    text-align: end;
+  }
+  .title-project {
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 5;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding-bottom: 60px;
+    margin: auto;
+    color: aliceblue;
+  }
+  .projeto {
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: solid 6px rgb(244, 244, 244);
+  }
+  .projetos {
+    z-index: 34;
+    background: rgba(0, 0, 0, 0.959);
+    position: fixed;
+    top: 20px;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+    border-radius: 10px;
+    padding: 30px;
+    padding-top: 70px;
+    color: aliceblue;
+  }
+  .projetos .title {
+    font-size: xx-large;
+    letter-spacing: 3;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(12, 0, 254);
+  }
+  .projetos .text {
+    color: rgb(206, 206, 206);
+    margin-bottom: 40px;
+  }
+  .projetos .date {
+    color: rgb(20, 102, 255);
+    margin-bottom: 120px;
+  }
+  .projetos a {
+    text-decoration: none;
+  }
+  .projetos .btn-link {
+    margin: auto;
+    font-size: large;
+    display: flex;
+    width: 60%;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 10px;
+    justify-content: space-between;
+    background: rgb(12, 0, 254);
+    background: rgb(0, 1, 71);
+    background: rgb(0, 1, 71);
+    background: linear-gradient(29deg, rgb(0, 1, 71) 0%, rgb(55, 45, 255) 100%);
+  }
+  .projetos .btn-link .center {
+    margin: auto;
+    font-weight: 400;
+  }
+  #project-01 {
+    background-image: url("../img/scssflix.png");
+    background-position: center;
+    background-size: cover;
+  }
+  #project-001 {
+    display: none;
+  }
+  #project-02 {
+    background-image: url("../img/tesla.png");
+    background-position: center;
+    background-size: cover;
+  }
+  #project-002 {
+    display: none;
+  }
+  #project-03 {
+    background-image: url("../img/Barber.png");
+    background-position: center;
+    background-size: cover;
+  }
+  #project-003 {
+    display: none;
+  }
+  #project-04 {
+    background-image: url("../img/funko-logo.png");
+    background-position: center;
+    background-size: cover;
+  }
+  #project-004 {
+    display: none;
+  }
+  #project-05 {
+    background-image: url("../img/imc.png");
+    background-position: center;
+    background-size: cover;
+  }
+  #project-005 {
+    display: none;
+  }
+  #project-06 {
+    background-image: url("../img/dog.png");
+    background-position: center;
+    background-size: cover;
+  }
+  #project-006 {
+    display: none;
+  }
+  #project-07 {
+    background-image: url("../img/calc.png");
+    background-position: center;
+    background-size: cover;
+  }
+  #project-007 {
+    display: none;
+  }
 }/*# sourceMappingURL=project.css.map */

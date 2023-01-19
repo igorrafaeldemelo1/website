@@ -48,27 +48,22 @@ function spell() {
     menu.style.display = 'block';
     menu.style.animation = 'go-back 1s'
 }
-
 function webBtnClose() {
     var btn = document.getElementById('webBtnHanburguer')
     btn.style.display = 'none'
     returnig()
-
     let chip = `<svg onclick="webMenu()" id="webBtnHanburguer" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
     fill="currentColor" class="bi bi-list " viewBox="0 0 16 16">
     <path fill-rule="evenodd"
         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
 </svg>`;
-
     document.getElementById('itens').innerHTML = chip
-
     var menu = document.getElementById('container-2')
     menu.style.display = 'none';
     returnigMedia()
 }
 function returnig() {
     var menu = document.getElementById('container-3')
-    
     menu.style.animation = 'go-return 1s'
     setTimeout(function () {
         menu.style.display = 'none';
@@ -116,3 +111,94 @@ function skillsCard(Nunb){
     }
     
 }
+
+var btn01 = document.getElementById('project-01');
+function projeto01() {
+    var aba = document.getElementById('project-001');
+    aba.style.display = 'block'
+}
+btn01.addEventListener('click', projeto01);
+var btnClose01 = document.getElementById('close01');
+function close01() {
+    var aba = document.getElementById('project-001');
+    aba.style.display = 'none'
+}
+btnClose01.addEventListener('click', close01);
+
+var btn01 = document.getElementById('project-02');
+function projeto02() {
+    var aba = document.getElementById('project-002');
+    aba.style.display = 'block'
+}
+btn01.addEventListener('click', projeto02);
+var btnClose02 = document.getElementById('close02');
+function close02() {
+    var aba = document.getElementById('project-002');
+    aba.style.display = 'none'
+}
+btnClose02.addEventListener('click', close02);
+
+var btn03 = document.getElementById('project-03');
+function projeto03() {
+    var aba = document.getElementById('project-003');
+    aba.style.display = 'block'
+}
+btn03.addEventListener('click', projeto03);
+var btnClose02 = document.getElementById('close03');
+function close03() {
+    var aba = document.getElementById('project-003');
+    aba.style.display = 'none'
+}
+btnClose02.addEventListener('click', close03);
+
+var btn04 = document.getElementById('project-04');
+function projeto04() {
+    var aba = document.getElementById('project-004');
+    aba.style.display = 'block'
+}
+btn04.addEventListener('click', projeto04);
+var btnClose04 = document.getElementById('close04');
+function close04() {
+    var aba = document.getElementById('project-004');
+    aba.style.display = 'none'
+}
+btnClose04.addEventListener('click', close04);
+
+var btn05 = document.getElementById('project-05');
+function projeto05() {
+    var aba = document.getElementById('project-005');
+    aba.style.display = 'block'
+}
+btn05.addEventListener('click', projeto05);
+var btnClose05 = document.getElementById('close05');
+function close05() {
+    var aba = document.getElementById('project-005');
+    aba.style.display = 'none'
+}
+btnClose05.addEventListener('click', close05);
+
+var btn06 = document.getElementById('project-06');
+function projeto06() {
+    var aba = document.getElementById('project-006');
+    aba.style.display = 'block'
+}
+btn06.addEventListener('click', projeto06);
+var btnClose06 = document.getElementById('close06');
+function close06() {
+    var aba = document.getElementById('project-006');
+    aba.style.display = 'none'
+}
+btnClose06.addEventListener('click', close06);
+
+var btn07 = document.getElementById('project-07');
+function projeto07() {
+    var aba = document.getElementById('project-007');
+    aba.style.display = 'block'
+}
+btn07.addEventListener('click', projeto07);
+var btnClose07 = document.getElementById('close07');
+function close07() {
+    var aba = document.getElementById('project-007');
+    aba.style.display = 'none'
+}
+btnClose07.addEventListener('click', close07);
